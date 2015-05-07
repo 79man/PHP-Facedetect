@@ -12,6 +12,13 @@
   +----------------------------------------------------------------------+
   | Author: Robert Eisele <robert@xarg.org>                              |
   +----------------------------------------------------------------------+
+  | Modified to use the C++ version of openCV.				 |
+  | The motivation was due to an error produced by calling cvLoad()      |
+  | The changes do not add any new functionality yet, and is more in the |
+  | nature of a port to C++ openCV					 |
+  +----------------------------------------------------------------------+
+  | Modifier: Manoj Pillai <manoj.pillai@gmail.com>                      |
+  +----------------------------------------------------------------------+
 */
 
 #ifdef HAVE_CONFIG_H
